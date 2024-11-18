@@ -1,0 +1,41 @@
+[
+    {
+      "projectName": "Discord Project",
+      "projectId": "1",
+      "description": "This project is based on gaming, entertainment, and education, and it is a fully responsive website.",
+      "link": "https://abimangai.github.io/discord/",
+      "image": "discord.jpg"
+    },
+    {
+      "projectName": "Exclusive Project",
+      "projectId": "2",
+      "description": "This project is a premium platform built with exclusive design and features for user interaction.",
+      "link": "https://exclusive-website-pi.vercel.app/",
+      "image": "exclusive.jpg"
+    },
+
+    {
+      "projectName": "Travel Guide",
+      "projectId": "3",
+      "description": "A travel guide application offering tips, recommendations, and navigation for popular destinations.",
+      "link": "https://travel-guide-react.vercel.app/",
+      "image": "travel-guide.jpeg"
+    },
+
+    {
+      "projectName": "Homify",
+      "projectId": "4",
+      "description": "A real estate project to help users find and book houses, offering a fully responsive interface.",
+      "link": "https://homify-react-project.vercel.app/",
+      "image": "homify.png"
+    },
+
+    {
+      "projectName": "portfolio",
+      "projectId": "5",
+      "description": "This project is based on my profile.. my education, qualification, internships, work experience.. using react.js library",
+      "link": "https://homify-react-project.vercel.app/",
+      "image": "homify.png"
+    }
+  ]
+  
