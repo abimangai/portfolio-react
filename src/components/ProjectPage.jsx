@@ -15,6 +15,13 @@ const ProjectContainer = styled.div`
   padding: 40px;
   box-shadow: 0 0 20px #b336ff;
 `;
+const ProjectTitle = styled.h1`
+  font-size:28px;
+  margin-top:2%;
+  color: #b336ff;
+  text-align: center;
+  font-weight: bold;
+`;
 const PojectContain = styled.div`
   display: flex;
   justify-content: space-between;
@@ -66,6 +73,7 @@ const ProjectPage = () => {
   return (
     <ProjectSection>
       <ProjectContainer>
+      <ProjectTitle>Projects</ProjectTitle>
         <PojectContain>
           {projectData.map((project) => (
             <ProjectCont to={project.link} key={project.projectId}>

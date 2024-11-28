@@ -10,12 +10,14 @@ import mail from "../assets/mail.png";
 import { Link } from "react-router-dom";
 import About from "./About";
 import Project from "./Project";
+import Certificate from "./certificate";
+import ContactPage from "./ContactPage";
 
 
 
 const HomeSection=styled.section`
     /* background-color: #251d22; */
-     margin-top:2%;
+     margin-top:5%;
     
 
 `;
@@ -28,6 +30,14 @@ const HomeContainer=styled.div`
      margin:auto;
      border-radius: 10px;
      box-shadow:0 0 30px #B336FF;
+
+     @media (max-width: 570px) {
+        box-shadow:0 0 10px #B336FF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+     }
 `;
 const RightContainer=styled.div`
      background-color: #000;
@@ -38,6 +48,31 @@ const RightContainer=styled.div`
      margin-left:8%;
      margin-top:5%;
      box-shadow:0 0 40px #B336FF;
+
+     @media (max-width: 570px) {
+        box-shadow:0 0 3px #B336FF;
+       
+     }
+     @media (max-width:1080px) {
+       margin-left: 100px;
+     }
+     @media (max-width:850px) {
+       margin-left: 90px;
+     }
+     @media (max-width:710px) {
+       margin-left: 80px;
+     }
+     @media (max-width:640px) and (min-width:570px) {
+       margin-left: 60px;
+     }
+     @media (max-width:570px) and (min-width:320px) {
+       margin-left: 40px;
+       
+     }
+     @media (max-width:450px) and (min-width:320px) {
+      width: 200px;
+       
+     }
 `;
 const RightTop=styled.h1`
     color: #fff;
@@ -51,10 +86,19 @@ const RightMiddle=styled.p`
     padding-top: 5%;
 `;
 const IconContainer=styled.div`
-   justify-content:flex-start;
-   align-items: center;
+     justify-content:flex-start;
+     align-items: center;
      display: flex;
      margin-top: 20px;
+
+     @media (max-width:570px){
+         flex-direction: column;
+         /* width: 100%; */
+         display:flex;
+         margin: auto;
+         justify-content: center;
+
+     }
 `;
 const ResumeLogo=styled.img`
    cursor:pointer;
@@ -64,7 +108,10 @@ const SocialMediaIcon=styled.div`
      align-items: center;
      display: flex;
      gap:1rem;
-     margin-left:35%;
+     margin-left:20%;
+     @media (max-width:570px){
+        margin-left:0%;
+     }
      
 `;
 const MediaIcon=styled(Link)`
@@ -83,7 +130,7 @@ const LeftContainer=styled.div`
 
 `;
 const ImgContainer=styled.div`
- 
+ width: 100%;
 
 `;
 const LeftImg=styled.img`
@@ -93,18 +140,29 @@ const LeftImg=styled.img`
    border-radius: 5%;
    margin-left:20%;
 
+   @media (max-width: 570px) {
+       display:none;
+
+     }
+     @media (max-width:1080px) {
+       display:none;
+
+     }
+
 
 `;
 const Home = () => {
   return (
     <>
-<HomeSection>
+<HomeSection id="home">
     <HomeContainer>
         <RightContainer>
             <RightTop>Hiii, I am <RightSpan>Abirami K </RightSpan> </RightTop>
-            <RightMiddle>I am an enthusiastic person with positive attitude. I am passionate on creating websites . And I have stong communication skill <br/>where I can able to manage the clients. </RightMiddle>
+            <RightMiddle>Welcome to my portfolio website! This site has been created as a reference to showcase my skills, projects, and services. I hope it helps you get a better understanding of what I do and how I can assist you. Feel free to explore and reach out if you have any questions! </RightMiddle>
             <IconContainer>
-            <ResumeLogo src={ resume} alt=""/>
+                <a href="/portfolio/public/Resume.pdf" download="Resume.pdf">
+                    <ResumeLogo src={resume} alt="Download Resume" />
+                </a>
                 <SocialMediaIcon >
                     <MediaIcon to= "https://www.linkedin.com/in/abirami2301/">
                      <MediaImg src={linkedin} alt=""/>
@@ -134,8 +192,13 @@ const Home = () => {
     </HomeContainer>
 </HomeSection>
 
-<About/>
+{/* <About/>
 <Project/>
+<Certificate/>
+<ContactPage/> */}
+
+
+
 
 
 

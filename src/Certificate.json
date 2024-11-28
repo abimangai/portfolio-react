@@ -1,0 +1,50 @@
+[
+    {
+      "CertificateName": "React.JS certificate by Steyp(Talrop)",
+      "CertificateId": "1",
+      "description": "This project is based on gaming, entertainment, and education, and it is a fully responsive website.",
+      "image": "react-certificate.png"
+    },
+    {
+        "CertificateName": "Javascript certificate by Steyp(Talrop)",
+        "CertificateId": "2",
+        "description": "This project is based on gaming, entertainment, and education, and it is a fully responsive website.",
+        "image": "javascript.png"
+      },
+      {
+        "CertificateName": "Project Management by Great learning",
+        "CertificateId": "5",
+        "description": "This project is based on gaming, entertainment, and education, and it is a fully responsive website.",
+        "image": "project management.png"
+      },
+      {
+        "CertificateName": "Python certificate by Steyp(Talrop)",
+        "CertificateId": "3",
+        "description": "This project is based on gaming, entertainment, and education, and it is a fully responsive website.",
+        "image": "python-certificate.png"
+      },
+      {
+        "CertificateName": "Domain Management certificate",
+        "CertificateId": "4",
+        "description": "This project is based on gaming, entertainment, and education, and it is a fully responsive website.",
+        "image": "domain-management-certificate.png"
+      },
+      {
+        "CertificateName": "Django certificate by Steyp(Talrop)",
+        "CertificateId": "5",
+        "description": "This project is based on gaming, entertainment, and education, and it is a fully responsive website.",
+        "image": "django-certificate.png"
+      },
+      {
+        "CertificateName": "HRM by Great learning",
+        "CertificateId": "5",
+        "description": "This project is based on gaming, entertainment, and education, and it is a fully responsive website.",
+        "image": "hrm.png"
+      },
+      {
+        "CertificateName": "Bootstrapcertificate by Steyp(Talrop)",
+        "CertificateId": "6",
+        "description": "This project is based on gaming, entertainment, and education, and it is a fully responsive website.",
+        "image": "bootstrap-certificate.png"
+      }
+]

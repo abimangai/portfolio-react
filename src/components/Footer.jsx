@@ -16,12 +16,17 @@ width: 82%;
 margin-top: 2%;
 border-radius: 10px;
 padding: 2%;
+
 `;
 const FooterContain =styled.div`
 display:flex;
 align-items: center;
 justify-content: center;
 gap:2rem;
+
+@media(max-width:610px) and (min-width:320px){
+  flex-direction:column;
+}
 `;
 const MailContainer =styled.div`
 display:flex;
@@ -29,9 +34,15 @@ gap: 1rem;
 `;
 const MailImage =styled.img`
 
+@media(max-width:450px) and (min-width:320px){
+  width:12px;
+}
 `;
 const FooterEmail =styled.h4`
 
+@media(max-width:450px) and (min-width:320px){
+font-size:14px;
+}
 `;
 const FooterLogoContainer =styled.div`
 display:flex;
